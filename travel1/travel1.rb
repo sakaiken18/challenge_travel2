@@ -32,7 +32,7 @@ puts "#{place}旅行ですね。"
 puts "何名で予約されますか？"
 
 while true
-  print "人数を入力 >"
+  print "人数を入力 > "
   number_of_human = gets.to_i
 
   break if number_of_human >= 1
