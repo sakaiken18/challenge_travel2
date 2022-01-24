@@ -8,5 +8,5 @@ plans = [
 
 disp_plans(plans)
 chosen_plan = choose_plan(plans)
-number_of_people = dicide_number_of_people(chosen_plan)
+number_of_people = decide_number_of_people(chosen_plan)
 calculate_charges(chosen_plan, number_of_people)
